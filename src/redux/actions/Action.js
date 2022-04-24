@@ -7,7 +7,7 @@ import {
 import axios from 'axios'
 
 
-const url = 'http://localhost:5000/info'
+// const url = 'http://localhost:5000/info'
 
 
 // delete info 
@@ -25,7 +25,7 @@ const deleteInfoSuccess = (id) => {
 
 export const deleteInfo = id => {
     return dispatch => {
-        axios.delete(`${url}/${id}`)
+        axios.delete(`${process.env.REACT_APP_API}/${id}`)
         .then(() => {
             dispatch(deleteInfoSuccess(id))
         })
@@ -44,7 +44,7 @@ export const editInfo = (id, data) => {
 
     return dispatch => {
        
-        axios.put(`${url}/${id}`, data)
+        axios.put(`${process.env.REACT_APP_API}/${id}`, data)
       
         .then(res => {
             dispatch(editInfoSuccess(res))
@@ -67,7 +67,7 @@ export const addInfo = info => {
 
 
     return dispatch => {
-        axios.post(url, info)
+        axios.post(process.env.REACT_APP_API, info)
         .then(res => {
             dispatch(addInfoSuccess(res.data))
             
@@ -86,7 +86,7 @@ export const getInfoSuccess = data => {
 
 export  const getInfo = () => {
     return dispatch => {
-        axios.get(url)
+        axios.get(process.env.REACT_APP_API)
         .then(res => {
             dispatch(getInfoSuccess(res.data))
         })
