@@ -12,7 +12,7 @@ const InfoAdded = ({ info }) => {
   
   useEffect(() => {
     dispatch(getInfo())
-  }, [])
+  })
 
   return (
     <div>

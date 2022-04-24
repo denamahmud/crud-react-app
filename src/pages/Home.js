@@ -14,7 +14,7 @@ const Home = ({ info }) => {
     
   useEffect(() => {
     dispatch(getInfo())
-  }, [])
+  })
   
   return (
     <div>
