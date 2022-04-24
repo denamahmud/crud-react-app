@@ -67,7 +67,7 @@ export const addInfo = info => {
 
 
     return dispatch => {
-        axios.post(process.env.REACT_APP_API, info)
+        axios.post(`${process.env.REACT_APP_API}`, info)
         .then(res => {
             dispatch(addInfoSuccess(res.data))
             
@@ -86,7 +86,7 @@ export const getInfoSuccess = data => {
 
 export  const getInfo = () => {
     return dispatch => {
-        axios.get(process.env.REACT_APP_API)
+        axios.get(`${process.env.REACT_APP_API}`)
         .then(res => {
             dispatch(getInfoSuccess(res.data))
         })
