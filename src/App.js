@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import FillInfo from './pages/FillInfo';
 import Home from './pages/Home';
 import InfoAdded from './pages/InfoAdded';
@@ -12,7 +12,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
                     <Route exact path='/' element={<Home/>}/>
                     <Route path='/fill-info' element={<FillInfo/>}/>
@@ -20,7 +20,7 @@ const App = () => {
                     <Route exact path='/info-edit' element={<InfoEdit/>}/>
                     <Route path='/info-edit/:id' element={<InfoEdit/>}/>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         
         </div>
     );
