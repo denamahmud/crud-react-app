@@ -1,0 +1,10 @@
+@import '../btn_style.module';
+
+.btn_info_added{
+    @extend .btnStyle;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 50px auto;
+}

@@ -1,0 +1,26 @@
+@import '../colors.module';
+
+.textStyle{
+    color: $dark-blue;
+    text-align: center;
+    font-size: 1.8rem;
+    word-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    span{
+        font-weight: bold;
+        margin-right: 10px;
+        a{
+            color: $dark-red;
+            text-decoration: none;
+            transition: 1s color;
+            &:hover{
+                color: $dark-blue;
+            }
+        }
+      
+    }
+}

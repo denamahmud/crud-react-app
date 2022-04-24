@@ -1,0 +1,24 @@
+// Add Info
+
+export const ADD_INFO_ERROR = 'ADD_INFO_ERROR'
+export const ADD_INFO_LOADING = 'ADD_INFO_LOADING'
+export const ADD_INFO_SUCCESS = 'ADD_INFO_SUCCESS'
+
+
+// Delete Info
+
+export const DELETE_INFO_ERROR = 'DELETE_INFO_ERROR'
+export const DELETE_INFO_LOADING = 'DELETE_INFO_LOADING'
+export const DELETE_INFO_SUCCESS = 'DELETE_INFO_SUCCESS'
+
+// Edit Info
+
+export const EDIT_INFO_ERROR = 'EDIT_INFO_ERROR'
+export const EDIT_INFO_LOADING = 'EDIT_INFO_LOADING'
+export const EDIT_INFO_SUCCESS = 'EDIT_INFO_SUCCESS'
+
+// Get Info
+
+export const GET_INFO_ERROR = 'GET_INFO_ERROR'
+export const GET_INFO_LOADING = 'GET_INFO_LOADING'
+export const GET_INFO_SUCCESS = 'GET_INFO_SUCCESS'

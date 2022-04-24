@@ -1,0 +1,9 @@
+@import '../btn_style.module';
+
+.btn_home{
+    @extend .btnStyle;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}

@@ -1,0 +1,29 @@
+@import '../colors.module';
+
+
+table{
+    background-color: $white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    thead{
+        th{
+            padding: 20px;
+            color: $gray;
+        }
+    }
+    tbody{
+        text-align: center;
+        td{
+            padding: 20px;
+            color: #23242B;
+        }
+    }
+}
+
+.btnStyle{
+    cursor: pointer;
+}
