@@ -1,13 +1,6 @@
 {
   "info": [
     {
-      "first_name": "John",
-      "last_name": "Rashid",
-      "age": "20",
-      "fav_color": "blue",
-      "id": 4
-    },
-    {
       "first_name": "Shereen",
       "last_name": "Husein",
       "age": "12",
@@ -27,6 +20,13 @@
       "age": "40",
       "fav_color": "purple",
       "id": 8
+    },
+    {
+      "first_name": "John",
+      "last_name": "Tony",
+      "age": "35",
+      "fav_color": "light yellow",
+      "id": 9
     }
   ]
 }
