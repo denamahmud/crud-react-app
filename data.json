@@ -1,24 +1,10 @@
 {
   "info": [
     {
-      "first_name": "Shereen",
-      "last_name": "Husein",
-      "age": "12",
-      "fav_color": "blue",
-      "id": 6
-    },
-    {
-      "first_name": "Halil",
-      "last_name": "samer",
-      "age": "14",
-      "fav_color": "yellow",
-      "id": 7
-    },
-    {
       "first_name": "Rawan",
       "last_name": "Jalal",
-      "age": "40",
-      "fav_color": "purple",
+      "age": "70",
+      "fav_color": "dark Yellow",
       "id": 8
     },
     {
@@ -27,6 +13,34 @@
       "age": "35",
       "fav_color": "light yellow",
       "id": 9
+    },
+    {
+      "first_name": "Fuad",
+      "last_name": "Raad",
+      "age": "26",
+      "fav_color": "dark red",
+      "id": 10
+    },
+    {
+      "first_name": "Layla",
+      "last_name": "Waleed",
+      "age": "23",
+      "fav_color": "light green",
+      "id": 11
+    },
+    {
+      "first_name": "Fakhri",
+      "last_name": "Samih",
+      "age": "28",
+      "fav_color": "magenta",
+      "id": 12
+    },
+    {
+      "first_name": "Taha",
+      "last_name": "Hameed",
+      "age": "17",
+      "fav_color": "Black",
+      "id": 13
     }
   ]
 }

@@ -26,7 +26,7 @@ const Home = ({ info }) => {
             <Link to='/info-added'>
                { info.length }
             </Link>
-          </span>item{info.length > 1 ? ("s").toLowerCase() : ""} info
+          </span>items info
         </div> : 
         <div className={style.textStyle}>
           you didn't added any item info
